@@ -781,9 +781,7 @@ img{
   text-align: center;
   color: var(--text-color-btn-secondary);
 }
-.modal .form-field{
-  margin-bottom: 10px;
-}
+.modal .form-field{ margin-bottom: 10px; }
 .modal .form-label {
   display: block;
   margin-bottom: 4px;
@@ -792,9 +790,7 @@ img{
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
 }
-.form-icon-inp{
-  position: relative;
-}
+.form-icon-inp { position: relative; }
 
 .modal .form-input{
   display: block;
@@ -816,9 +812,7 @@ img{
 .modal .form-input:focus + .icon, .modal .form-input:hover + .icon{
   fill: var(--bg-color-primary);
 }
-.form-field .icon:hover{
-  fill: var(--bg-color-primary);
-}
+.form-field .icon:hover { fill: var(--bg-color-primary); }
 
 .form-field .icon{
   position: absolute;
@@ -837,9 +831,7 @@ img{
 
   transition: fill 250ms var(--timing-function);
 }
-.form-field-area{
-  margin-bottom: 20px;
-}
+.form-field-area { margin-bottom: 20px; }
 .form-textarea{
   display: block;
   width: 100%;
@@ -881,9 +873,7 @@ img{
 
   transition: background-color 250ms var(--timing-function);
 }
-.form .form-button:hover{
-  background-color: var(--btn-hover);
-}
+.form .form-button:hover{background-color: var(--btn-hover);}
 .form-check-label{
   display: flex;
   align-items: center;
@@ -898,8 +888,8 @@ img{
 }
 .checkbox{
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   position: absolute;
 }
 .form-check-label .icon{
