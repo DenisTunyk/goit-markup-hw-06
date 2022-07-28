@@ -805,14 +805,18 @@ img{
   border: 1px solid;
   border-color:  rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  cursor: pointer;
 
   transition: border-color 250ms var(--timing-function);
 }
-.modal .form-input:focus{
+.modal .form-input:focus, .modal .form-input:hover{
   outline: none;
   border-color: var(--bg-color-primary);
 }
-.modal .form-input:focus + .icon{
+.modal .form-input:focus + .icon, .modal .form-input:hover + .icon{
+  fill: var(--bg-color-primary);
+}
+.form-field .icon:hover{
   fill: var(--bg-color-primary);
 }
 
@@ -829,6 +833,7 @@ img{
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
+  cursor: pointer;
 
   transition: fill 250ms var(--timing-function);
 }
@@ -845,8 +850,9 @@ img{
   /* border: solid 1px; */
   /* font-family: inherit;
   font-size: inherit; */
+  cursor: pointer;
 }
-.form-textarea:focus{
+.form-textarea:focus, .form-textarea:hover{
   outline: none;
   border-color: var(--bg-color-primary);
 }
