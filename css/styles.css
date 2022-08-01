@@ -865,11 +865,7 @@ img{
 }
 .form-check-label:hover > .icon
 {
-background-image: url(./../images/modal/icon-check.svg);
-  background-color: var(--bg-color-primary);
-  background-size: contain;
-  background-origin: border-box;
-  border-color: var(--bg-color-primary);
+  border: solid 2px var(--bg-color-primary);
 }
 .form-check-label a{
   color: var(--bg-color-primary);
@@ -888,16 +884,18 @@ background-image: url(./../images/modal/icon-check.svg);
   /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
   border-radius: 4px;
   border: solid 2px var(--black-color);
+  transition: border 250ms var(--timing-function), 
+              background 250ms var(--timing-function);
 }
 .checkbox:checked + .icon{
-  background-image: url(./../images/modal/icon-check.svg);
+  background-image: url(../images/modal/icon-check.svg);
   background-color: var(--bg-color-primary);
   background-size: contain;
   background-origin: border-box;
-  border-color: var(--bg-color-primary);
+  border: 2px solid var(--bg-color-primary);
 }
 .checkbox:focus+.icon {
-  border-color: var(--bg-color-primary);
+  border: solid 2px var(--bg-color-primary);
 }
 
 /* Modal window end */
